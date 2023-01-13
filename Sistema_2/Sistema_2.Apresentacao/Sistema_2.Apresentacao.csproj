@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B9C31B1-A4FC-4D31-8576-3FE19271F568}</ProjectGuid>
+    <ProjectGuid>{CB965299-1026-4844-98C4-117EFD6B7B64}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Sistema</RootNamespace>
-    <AssemblyName>Sistema</AssemblyName>
+    <RootNamespace>Sistema_2.Apresentacao</RootNamespace>
+    <AssemblyName>Sistema_2.Apresentacao</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -69,12 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sistema.Negocio\Sistema.Negocio.csproj">
-      <Project>{40e55de6-3f4c-4594-a498-59406d1bf1ff}</Project>
-      <Name>Sistema.Negocio</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
